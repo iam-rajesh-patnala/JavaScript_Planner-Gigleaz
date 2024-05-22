@@ -563,6 +563,20 @@ const userDetails = [
 const sortedUsers = userDetails.sort((a, b) => a.name - b.name);
 
 console.log(sortedUsers);
+// ------------------------------------------------------------------------------------------------
+
+// 5. Array Destructuring
+
+const allVehicles = ["Ferrari", "Volvo", "Benz", "Ninja"];
+const [car, bus, truck, motorBike] = allVehicles;
+
+console.log(car, bus, truck, bike);
+
+// If we only want the car1 and suv we can simply leave out the truck but keep the comma:
+const vehicles2 = ['mustang', 'f-150', 'expedition'];
+const [car1,, suv] = vehicles2;
+
+console.log(car1, suv);
 
 ////////////////////////////////////////////////
 //finding Unique values in the array
