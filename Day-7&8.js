@@ -72,7 +72,7 @@ const victum3 = {
 	eyeColor: "blue",
 };
 
-let text = person.constructor;
+let text = victum3.constructor;
 
 console.log(text);
 //----------------------------------------------------------------------------------------------
@@ -104,23 +104,23 @@ console.log(objArr[0]);
 // Array of objects
 let objArr2 = [
 	{
-		name: 'john',
+		name: "john",
 		age: 12,
-		gender: 'male'
+		gender: "male",
 	},
 	{
-		name: 'jane',
+		name: "jane",
 		age: 15,
-		gender: 'female'
+		gender: "female",
 	},
 	{
-		name: 'julie',
+		name: "julie",
 		age: 20,
-		gender: 'trans'
-	}
+		gender: "trans",
+	},
 ];
 
-console.log("Accessing the value using the [] and DOT notations:")
+console.log("Accessing the value using the [] and DOT notations:");
 console.log(objArr2[1].gender);
 // ----------------------------------------------------------------------------------------------
 
