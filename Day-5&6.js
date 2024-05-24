@@ -573,10 +573,18 @@ const [car, bus, truck, motorBike] = allVehicles;
 console.log(car, bus, truck, bike);
 
 // If we only want the car1 and suv we can simply leave out the truck but keep the comma:
-const vehicles2 = ['mustang', 'f-150', 'expedition'];
-const [car1,, suv] = vehicles2;
+const vehicles2 = ["mustang", "f-150", "expedition"];
+const [car1, , suv] = vehicles2;
 
 console.log(car1, suv);
+
+// We can also use the rest operator to get the rest of the values
+const vehicles3 = ["mustang", "f-150", "expedition"];
+const [car2, ...rest] = vehicles3;
+
+console.log(car2, rest);
+
+// -------------------------------------------------------------------------------------------------
 
 ////////////////////////////////////////////////
 //finding Unique values in the array
